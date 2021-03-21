@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre cepa:</strong>
+  <%= @cepa.nombre_cepa %>
+</p>
+
+<p>
+  <strong>Percent:</strong>
+  <%= @cepa.percent %>
+</p>
+
+<%= link_to 'Edit', edit_cepa_path(@cepa) %> |
+<%= link_to 'Back', cepas_path %>
